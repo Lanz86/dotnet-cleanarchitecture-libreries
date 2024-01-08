@@ -3,8 +3,6 @@ name: Package
 on:
   push:
     branches: [ main ]
-    paths:
-      - './src/domain/Domain.nuspec'
 
 jobs:
   publish:
