@@ -1,6 +1,6 @@
 ﻿using MediatR;
 
-namespace LanzDev.CleanArchitecture.Libreries.Domain.Common;
+namespace LanzDev.CleanArchitecture.Libraries.Domain.Common;
 public abstract class BaseEvent : INotification
 {
 }

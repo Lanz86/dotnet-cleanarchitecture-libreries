@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>LanzDev.CleanArchitecture.Libraries.Application</id>
+    <version>8.0.0.1-alpha</version>
+    <title>Dotnet Clean Architecture Solution Template Application Library</title>
+    <authors>Antonio Lanzolla</authors>
+    <description>Dotnet Clean Architecture Solution Template Application Library for .NET 8.</description>
+    <summary>
+      A Dotnet Clean Architecture Solution Template Application Library.
+    </summary>
+    <releaseNotes>
+      Initial Dotnet Clean Architecture Solution Template Application Library
+    </releaseNotes>
+
+    <projectUrl>https://github.com/Lanz86/dotnet-cleanarchitecture-libreries</projectUrl>
+    <repository type="git" url="https://github.com/Lanz86/dotnet-cleanarchitecture-libreries" branch="main" />
+
+    <license type="expression">MIT</license>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <tags>clean-architecture dotnet-clean-architecture library csharp dotnet webapi minimalapi</tags>
+    <!--icon>icon.png</icon-->
+    <readme>README.md</readme>
+
+    <packageTypes>
+      <packageType name="Dependency" />
+    </packageTypes>
+
+  </metadata>
+
+  <files>
+<!--    <file src=".template.config\icon.png" />-->
+    <file src="README.md" />
+    <file src=".\**" target="content" exclude="**\node_modules\**;**\bin\**;**\obj\**;.\.vs\**;.\.vscode\**;**\ClientApp\dist\**;**\wwwroot\dist\**;content\Directory.Build.*;.\.git\**;.\.github\workflows\package.yml;.\.github\workflows\codeql.yml;.\.github\ISSUE_TEMPLATE\**;.\.github\icon.png;.\CODE_OF_CONDUCT.md;.\LICENSE;.\README.md;" />
+  </files>
+
+</package>
