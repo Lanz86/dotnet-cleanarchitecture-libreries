@@ -19,8 +19,14 @@ jobs:
         with:
           nuget-version: '6.x'
 
-      - name: Create the package
+      - name: Create Domain package
         run: nuget pack ./src/Domain/Domain.nuspec -NoDefaultExcludes
         
-      - name: Publish the package
+      - name: Publish Domain package
         run: nuget push LanzDev.CleanArchitecture.Libraries.Domain.*.nupkg -Source 'https://api.nuget.org/v3/index.json' -ApiKey ${{secrets.NUGET_API_KEY}} -SkipDuplicate
+        
+      - name: Create Application package
+        run: nuget pack ./src/Application/Application.nuspec -NoDefaultExcludes
+
+      - name: Publish Application package
+        run: nuget push LanzDev.CleanArchitecture.Libraries.Application.*.nupkg -Source 'https://api.nuget.org/v3/index.json' -ApiKey ${{secrets.NUGET_API_KEY}} -SkipDuplicate
