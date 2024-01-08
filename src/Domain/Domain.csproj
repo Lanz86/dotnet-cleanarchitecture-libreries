@@ -1,7 +1,7 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
-    <RootNamespace>LanzDev.CleanArchitecture.Libreries.Domain</RootNamespace>
-    <AssemblyName>LanzDev.CleanArchitecture.Libreries.Domain</AssemblyName>
+    <RootNamespace>LanzDev.CleanArchitecture.Libraries.Domain</RootNamespace>
+    <AssemblyName>LanzDev.CleanArchitecture.Libraries.Domain</AssemblyName>
   </PropertyGroup>
   
   <ItemGroup>

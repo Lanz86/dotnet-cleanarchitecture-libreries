@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations.Schema;
 
-namespace LanzDev.CleanArchitecture.Libreries.Domain.Common;
+namespace LanzDev.CleanArchitecture.Libraries.Domain.Common;
 public abstract class BaseEntity<T> : IBaseEntity
 {
     public T Id { get; set; }

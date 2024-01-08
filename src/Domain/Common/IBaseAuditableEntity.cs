@@ -1,4 +1,4 @@
-﻿namespace LanzDev.CleanArchitecture.Libreries.Domain.Common;
+﻿namespace LanzDev.CleanArchitecture.Libraries.Domain.Common;
 
 public interface IBaseAuditableEntity
 {

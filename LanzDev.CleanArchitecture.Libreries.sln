@@ -33,6 +33,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ISSUE_TEMPLATE", "ISSUE_TEM
 		.github\ISSUE_TEMPLATE\feature_request.md = .github\ISSUE_TEMPLATE\feature_request.md
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Application", "src\Application\Application.csproj", "{F586579D-0797-453F-917A-74AE19DA5C4A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -43,6 +45,10 @@ Global
 		{5DA4F7D3-D3F0-463D-9C18-46EB87CAF8AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5DA4F7D3-D3F0-463D-9C18-46EB87CAF8AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5DA4F7D3-D3F0-463D-9C18-46EB87CAF8AD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F586579D-0797-453F-917A-74AE19DA5C4A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F586579D-0797-453F-917A-74AE19DA5C4A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F586579D-0797-453F-917A-74AE19DA5C4A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F586579D-0797-453F-917A-74AE19DA5C4A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -52,5 +58,6 @@ Global
 		{55F7AE81-CF5F-43F3-B72D-A8924D52E01B} = {599A4934-16D7-4F9B-9B9E-259A88583D67}
 		{D889A1A6-8ACC-405A-9918-36D186C58E7B} = {55F7AE81-CF5F-43F3-B72D-A8924D52E01B}
 		{BE1F1699-CA5C-4723-A9C5-3287879EB52E} = {55F7AE81-CF5F-43F3-B72D-A8924D52E01B}
+		{F586579D-0797-453F-917A-74AE19DA5C4A} = {99100EBD-6BF4-44C8-8FC6-4CF21FBA6581}
 	EndGlobalSection
 EndGlobal
