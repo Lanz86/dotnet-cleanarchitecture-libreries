@@ -26,6 +26,10 @@ jobs:
     runs-on: ubuntu-latest
     permissions:
       security-events: write
+    strategy:
+      fail-fast: false
+      matrix:
+        language: [ 'csharp' ]
 
     steps:
     - name: Checkout repository
@@ -36,8 +40,6 @@ jobs:
 
     - name: Autobuild
       uses: github/codeql-action/autobuild@v2
-      env:
-        SkipNSwag: True
 
     - name: Perform CodeQL Analysis
       uses: github/codeql-action/analyze@v2
