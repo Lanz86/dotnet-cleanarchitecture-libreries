@@ -19,7 +19,7 @@
     <license type="expression">MIT</license>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <tags>clean-architecture dotnet-clean-architecture library csharp dotnet webapi minimalapi</tags>
-    <icon>icon.png</icon>
+    <!--icon>icon.png</icon-->
     <readme>README.md</readme>
 
     <packageTypes>
