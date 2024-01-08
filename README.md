@@ -1,0 +1,1 @@
+# DotNet Clean Architecture Libraries
