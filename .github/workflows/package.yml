@@ -2,8 +2,7 @@ name: Package
 
 on:
   push:
-    branches:
-      - main
+    branches: [ main ]
     paths:
       - './src/domain/Domain.nuspec'
 
