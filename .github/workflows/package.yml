@@ -37,11 +37,11 @@ jobs:
       - name: Publish Application package
         run: nuget push LanzDev.CleanArchitecture.Libraries.Application.*.nupkg -Source 'https://api.nuget.org/v3/index.json' -ApiKey ${{secrets.NUGET_API_KEY}} -SkipDuplicate
 
-      - name: Build Infrastructure dll
-        run: dotnet build -c Release ./src/Infrastructure/Infrastructure.csproj
+      - name: Build WebApi dll
+        run: dotnet build -c Release ./src/WebApi/WebApi.csproj
 
-      - name: Create Application package
-        run: nuget pack ./src/Infrastructure/Infrastructure.nuspec
+      - name: Create WebApi package
+        run: nuget pack ./src/WebApi/WebApi.nuspec
 
-      - name: Publish Application package
-        run: nuget push LanzDev.CleanArchitecture.Libraries.Infrastructure.*.nupkg -Source 'https://api.nuget.org/v3/index.json' -ApiKey ${{secrets.NUGET_API_KEY}} -SkipDuplicate
+      - name: Publish WebApi package
+        run: nuget push LanzDev.CleanArchitecture.Libraries.WebApi.*.nupkg -Source 'https://api.nuget.org/v3/index.json' -ApiKey ${{secrets.NUGET_API_KEY}} -SkipDuplicate
