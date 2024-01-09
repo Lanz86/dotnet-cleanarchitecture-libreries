@@ -28,6 +28,15 @@ jobs:
       - name: Publish Domain package
         run: nuget push LanzDev.CleanArchitecture.Libraries.Domain.*.nupkg -Source 'https://api.nuget.org/v3/index.json' -ApiKey ${{secrets.NUGET_API_KEY}} -SkipDuplicate
         
+      - name: Build Infrastructure dll
+        run: dotnet build -c Release ./src/Infrastructure/Infrastructure.csproj
+
+      - name: Create Infrastructure package
+        run: nuget pack ./src/Infrastructure/Infrastructure.nuspec
+
+      - name: Publish Infrastructure package
+        run: nuget push LanzDev.CleanArchitecture.Libraries.Infrastructure.*.nupkg -Source 'https://api.nuget.org/v3/index.json' -ApiKey ${{secrets.NUGET_API_KEY}} -SkipDuplicate
+        
       - name: Build Application dll
         run: dotnet build -c Release ./src/Application/Application.csproj
         
