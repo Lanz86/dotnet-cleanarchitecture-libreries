@@ -10,7 +10,7 @@
     <PackageVersion Include="FluentValidation.DependencyInjectionExtensions" Version="11.9.0" />
     <PackageVersion Include="Microsoft.EntityFrameworkCore" Version="8.0.0" />
     <PackageVersion Include="Microsoft.Extensions.Configuration.Abstractions" Version="8.0.0" />
-    <PackageVersion Include="LanzDev.CleanArchitecture.Libraries.Domain" Version="8.0.0.1" />
-    <PackageVersion Include="LanzDev.CleanArchitecture.Libraries.Application" Version="8.0.0.1" />
+    <PackageVersion Include="LanzDev.CleanArchitecture.Libraries.Domain" Version="8.0.0.3-alpha" />
+    <PackageVersion Include="LanzDev.CleanArchitecture.Libraries.Application" Version="8.0.0.3-alpha" />
   </ItemGroup>
 </Project>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>LanzDev.CleanArchitecture.Libraries.Infrastructure</id>
+    <version>8.0.0.3-alpha</version>
+    <title>Dotnet Clean Architecture Solution Template Infrastructure Library</title>
+    <authors>Antonio Lanzolla</authors>
+    <description>Dotnet Clean Architecture Solution Template Infrastructure Library for .NET 8.</description>
+    <summary>
+      A Dotnet Clean Architecture Solution Template Infrastructure Library.
+    </summary>
+    <releaseNotes>
+      Initial Dotnet Clean Architecture Solution Template Infrastructure Library
+    </releaseNotes>
+
+    <projectUrl>https://github.com/Lanz86/dotnet-cleanarchitecture-libreries</projectUrl>
+    <repository type="git" url="https://github.com/Lanz86/dotnet-cleanarchitecture-libreries" branch="main" />
+
+    <license type="expression">MIT</license>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <tags>clean-architecture dotnet-clean-architecture library csharp dotnet webapi minimalapi</tags>
+    <!--icon>icon.png</icon-->
+    <readme>README.md</readme>
+
+    <packageTypes>
+      <packageType name="Dependency" />
+    </packageTypes>
+    <dependencies>
+      <group targetFramework="net8.0" />
+    </dependencies>
+  </metadata>
+  <files>    
+    <file src="./bin/Release/**/*.*" target="lib"/>
+    <file src="README.md" />
+  </files>
+</package>
