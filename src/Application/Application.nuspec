@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
   <metadata>
     <id>LanzDev.CleanArchitecture.Libraries.Application</id>
-    <version>8.0.0.3-alpha</version>
+    <version>8.0.0.4-alpha</version>
     <title>Dotnet Clean Architecture Solution Template Application Library</title>
     <authors>Antonio Lanzolla</authors>
     <description>Dotnet Clean Architecture Solution Template Application Library for .NET 8.</description>
