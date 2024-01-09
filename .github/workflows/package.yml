@@ -20,7 +20,7 @@ jobs:
           nuget-version: '6.x'
 
       - name: Build Domain dll
-        run: dotnet build -c Release ./src/Domain/Domain.csproj -o ./src/Domain/app/bin
+        run: dotnet build -c Release ./src/Domain/Domain.csproj
 
       - name: Create Domain package
         run: nuget pack ./src/Domain/Domain.nuspec
@@ -29,7 +29,7 @@ jobs:
         run: nuget push LanzDev.CleanArchitecture.Libraries.Domain.*.nupkg -Source 'https://api.nuget.org/v3/index.json' -ApiKey ${{secrets.NUGET_API_KEY}} -SkipDuplicate
         
       - name: Build Application dll
-        run: dotnet build -c Release ./src/Application/Application.csproj -o ./src/Application/app/bin
+        run: dotnet build -c Release ./src/Application/Application.csproj
         
       - name: Create Application package
         run: nuget pack ./src/Application/Application.nuspec
