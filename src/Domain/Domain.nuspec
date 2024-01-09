@@ -25,9 +25,12 @@
     <packageTypes>
       <packageType name="Dependency" />
     </packageTypes>
-    
+    <dependencies>
+      <group targetFramework="net8.0" />
+    </dependencies>
   </metadata>
-  <files>
-    <file src="./app/bin/LanzDev.CleanArchitecture.Libraries.Domain.dll" target="lib"/>
+  <files>    
+    <file src="./bin/Release/**/*.*" target="lib"/>
+    <file src="README.md" />
   </files>
 </package>
