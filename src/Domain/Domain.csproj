@@ -8,11 +8,4 @@
     <PackageReference Include="MediatR.Contracts" />
   </ItemGroup>
   
-  <ItemGroup>
-    <None Remove="README.md" />
-    <Content Include="README.md">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-  </ItemGroup>
-  
 </Project>
