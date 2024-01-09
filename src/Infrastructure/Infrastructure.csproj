@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <AssemblyName>LanzDev.CleanArchitecture.Libraries.Infrastructure</AssemblyName>
+    <RootNamespace>LanzDev.CleanArchitecture.Libraries.Infrastructure</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MediatR" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" />
+<!--    <PackageReference Include="LanzDev.CleanArchitecture.Libraries.Application" />-->
+<!--    <PackageReference Include="LanzDev.CleanArchitecture.Libraries.Domain" />-->
+  </ItemGroup>
+  
+</Project>
