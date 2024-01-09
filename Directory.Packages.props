@@ -13,6 +13,6 @@
     <PackageVersion Include="Ardalis.GuardClauses" Version="4.3.0" />
     <PackageVersion Include="Microsoft.AspNetCore.OpenApi" Version="8.0.0" />
     <PackageVersion Include="LanzDev.CleanArchitecture.Libraries.Domain" Version="8.0.0.3-alpha" />
-    <PackageVersion Include="LanzDev.CleanArchitecture.Libraries.Application" Version="8.0.0.3-alpha" />
+    <PackageVersion Include="LanzDev.CleanArchitecture.Libraries.Application" Version="8.0.0.4-alpha" />
   </ItemGroup>
 </Project>
